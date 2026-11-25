@@ -277,7 +277,7 @@ input, textarea {
   margin-bottom: 12px;
   font-size: 20px;
   padding:6px 12px;
-  width: 500px;
+  width: 100%x;
   border-radius: 6px;
 }
 
@@ -345,11 +345,14 @@ SMALLER SCREEN
   }
 
   .hero__img--wrapper {
+    width: 100%;
     max-width: 500px;
   }
 
   .hero__description {
     margin-left: 0;
+    width: 100%;
+    text-align: center;
   }
 
   h1 {
@@ -362,10 +365,11 @@ SMALLER SCREEN
 
   .section__description--wrapper {
     width: 100%;
+    max-width: 500px;
   }
 
   input, textarea {
-    width: 400px;
+    width: 100%;
   }
 }
   
